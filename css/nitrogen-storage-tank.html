@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nitrogen Storage Tank</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/iview.css" rel="stylesheet" type="text/css" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58268077-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111410238-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111410238-1');
+</script>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/raphael-min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+
+<script src="js/iview.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#iview').iView({
+					pauseTime: 3000,
+					pauseOnHover: true,
+					directionNavHoverOpacity: 0,
+					timer: "Bar",
+					timerDiameter: "10%",
+					timerPadding: 0,
+					timerStroke: 7,
+					timerBarStroke: 0,
+					timerColor: "#FFF",
+					timerPosition: "bottom-right"
+				});
+			});
+		</script>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+
+<script type="text/javascript">
+function disableSelection(e){if(typeof e.onselectstart!="undefined")e.onselectstart=function(){return false};else if(typeof e.style.MozUserSelect!="undefined")e.style.MozUserSelect="none";else e.onmousedown=function(){return false};e.style.cursor="default"}window.onload=function(){disableSelection(document.body)}
+</script>
+
+<script type="text/javascript">
+document.oncontextmenu=function(e){var t=e||window.event;var n=t.target||t.srcElement;if(n.nodeName!="A")return false};
+document.ondragstart=function(){return false};
+</script>
+
+<script type="text/javascript">
+window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==70||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==70||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
+</script>
+
+<script type="text/javascript">
+document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
+</script>
+</head>
+<body>
+	<!-- header-section-starts -->
+	<div class="header">
+		<div class="wrap">
+			<div class="header-bottom">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+				</div>
+
+				<div class="social-media">
+					<p id="socialicons2"><a href="https://www.facebook.com/amardeep.steel.centre" target="_blank"><img src="images/facebook.png" width="35" height="35" title="Go to facebook"/></a>&nbsp;<a href="https://twitter.com/AMARDEEP_STEEL" target="_blank"><img src="images/twitter.png" width="35" height="35" title="Go to twitter"/></a>&nbsp;<a href="https://plus.google.com/b/111568767435483873901/111568767435483873901/posts" target="_blank"><img src="images/g-plus.png" width="35" height="35" title="Go to google plus"/></a>&nbsp;<a href="https://www.linkedin.com/company/amardeep-steel-centre" target="_blank"><img src="images/linkedin.png" width="35" height="35" title="Go to Linkedin"/></a></p>
+		</div></div>
+	</div></div>
+     <div class="clearfix"></div>
+
+
+	<!-- header-section-ends -->
+    <div class="wrap">
+    <div id='cssmenu'>
+<ul>
+   <li class='has-sub'><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='about.html'><span>About us</span></a>
+      <ul>
+         <li><a href="about.html#introduction"><span>Introduction</span></a></li>
+         <li><a href="about.html#history-of-amardeep-steel-centre"><span>History</span></a></li>
+         <li><a href="about.html#our-vision"><span>Our Vision</span></a></li>
+         <li><a href="about.html#mission-statement"><span>Mission Statement</span></a></li>
+         <li class='last'><a href="about.html#corporate-values"><span>Corporate Values</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href="products.html"><span>Products</span></a>
+      <ul>
+         <li><a href="piping-solutions.html"><span>Piping Solutions</span></a></li>
+         <li><a href="process-equipment.html"><span>Process Equipments</span></a></li>
+         <li><a href="special-products.html"><span>Special Products & Services</span></a></li>
+         <li class='last'><a href="machineries.html"><span>Machineries</span></a></li>
+      </ul>
+   </li>
+    <li class='has-sub'><a href="material-of-construction.html"><span>Material of Construction</span></a>
+    <ul>
+         <li><a href="titanium-titanium-alloys-products.html"><span>Titanium & Titanium Alloys</span></a></li>
+         <li><a href="tantalum-products.html"><span>Tantalum</span></a></li>
+         <li><a href="niobium-products.html"><span>Niobium</span></a></li>
+         <li><a href="nickel-alloy-steel-products.html"><span>Nickel & Nickel Alloys</span></a></li>
+         <li><a href="monel-products.html"><span>Monel</span></a></li>
+         <li><a href="inconel-products.html"><span>Inconel</span></a></li>
+         <li><a href="duplex-steel-products.html"><span>Duplex Steel</span></a></li>
+         <li><a href="super-duplex-steel-products.html"><span>Super Duplex Steel</span></a></li>
+         <li><a href="smo-254-products.html"><span>SMO 254</span></a></li>
+         <li><a href="hastelloy-products.html"><span>Hastelloy</span></a></li>
+         <li><a href="inconel-products.html"><span>Incoloy</span></a></li>
+         <li><a href="copper-nickel-products.html"><span>Copper & Copper Alloys</span></a></li>
+         <li><a href="aluminum-products.html"><span>Aluminum & Aluminum Alloys</span></a></li>
+         <li><a href="stainless-steel-products.html"><span>Stainless Steel</span></a></li>
+         <li><a href="carbon-steel-products.html"><span>Carbon Steel</span></a></li>
+         <li class='last'><a href="alloy-steel-products.html"><span>Alloy Steel</span></a></li>
+         <li class='last'><a href="alloy-28-products.html"><span>alloy 28</span></a></li>
+      </ul>
+    </li>
+    <li class='has-sub'><a href="quality-policy.html"><span>Quality</span></a>
+    <ul>
+         <li><a href="quality-policy.html"><span>Quality Policy</span></a></li>
+         <li><a href="testing.html"><span>Testing</span></a></li>
+         <li><a href="packing-despatch.html"><span>Packing & Despatch</span></a></li>
+      </ul></li>
+    <li class='last'><a href="clients.html"><span>Clients</span></a></li>
+    <li class='last'><a href="certificate.html"><span>Certificates</span></a></li>
+    <li class="last"><a href="http://www.amardeepsteel.com/blog/index.html"><span>Blogs</span></a></li>
+    <li class='last'><a href="sourcing-abilities.html"><span>Sourcing Abilities</span></a></li>
+    <li class='last'><a href="contact.html"><span>Contact Us</span></a></li>
+    <li class='last'><a href="tech-info.html"><span>Technical Info</span></a></li>
+</ul>
+</div></div>
+
+         <div class="clearfix"></div>
+
+    <div class="wrap">
+    		<div class="banner">
+            	<div id="iview">
+			<div data-iview:image="images/pipes.jpg">
+				<div class="iview-caption caption2" data-transition="wipeRight">Experts in Piping Solutions since 1984</div>
+			</div>
+
+			<div data-iview:image="images/buttweld.jpg">
+				<div class="iview-caption caption2" data-transition="wipeLeft">Exporters of Fittings & Flanges</div>
+			</div>
+
+			<div data-iview:image="images/banner1.jpg">
+				<div class="iview-caption caption2" data-transition="wipeLeft">Boiler Tubes</div>
+			</div>
+
+			<div data-iview:image="images/banner2.jpg">
+            	<div class="iview-caption caption2" data-transition="wipeLeft">Nickel Alloys</div>
+			</div>
+
+			<div data-iview:image="images/industry.jpg">
+            	<div class="iview-caption caption2" data-transition="wipeLeft">Process Equipment</div>
+			</div>
+		   </div>
+
+            </div>
+
+	</div>
+		   <div class="clearfix"></div>
+
+		<div class="wrap">
+          <p>&nbsp;</p>
+       	  <div class="container-left product-item">
+           	<div class="slide-top"><h1>Nitrogen Storage Tank</h1>
+           	</div>
+<h2>Nitrogen Storage Tank, Liquid Nitrogen Storage Vessel, Liquid Nitrogen Storage Tank, Liquid Nitrogen Storage Equipment.</h2>	<div class="img-box"><img src="images/Nitrogen Storage Tank.jpg" alt="Nitrogen Storage Tank" title="Nitrogen Storage Tank" /></div>                <div class="text-box"><p class="ab-txt">Amardeep Steel Centre is highly engaged in Manufacturing Nitrogen Storage Tank & Supplying Liquid Nitrogen Storage Tank. Liquid Nitrogen Storage Equipment is used to store biologic, genomic, and diagnostic samples in liquid nitrogen (-196°C to -210°C). Nitrogen Tanks are made of two sandwiched layers of aluminum or aluminum alloy that have a vacuum between them. These Liquid Nitrogen Tanks are insulated, vacuum jacketed pressure vessels. They come equipped with safety relief valves and rupture discs to protect the cylinders from pressure buildup. Liquid Nitrogen Tanks are equipped with various circuits to control product fill, pressure buildup, pressure relief, product withdrawal, and tank vacuum. These Nitrogen Storage Tanks are designed as per ASME specifications for the pressures and temperatures involved. We also design and fabricted these Custom made Liquid Nitrogen Tanks as per our customer's requirments. Amardeep Steel Centre is one of the top suppliers of Liquid Nitrogen Storage Tanks in India.</p></div>                <div class="clearfix"></div></ul><div style="vertical-align:center"><button type="button" class="btn-img"><strong><a href="contact.html" >Enquire now!</a></strong></button></div><br><br> </div></div>                                  </div>
+           	 <div class="container-right product-item">
+                    <div class="cont-right"><h4>Our Products</h4></div>
+
+                    	<div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"/></div>
+                                <div class="cont-txt"><a href="piping-solutions.html"><strong>Piping Solutions</strong></a></div>
+                    	</div>
+                    	<div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"/></div>
+                                <div class="cont-txt"><a href="process-equipment.html"><strong>Process Equipment</strong></a></div>
+                    	</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"/></div>
+                                <div class="cont-txt"><a href="special-products.html"><strong>Special Products</strong></a></div>
+                    	</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"/></div>
+                                <div class="cont-txt"><a href="machineries.html"><strong>Machineries</strong></a></div>
+                    	</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"></div>
+                                <div class="product-txt"><a href="elbow-forming-pipe-bending-machine.html">Elbow and Pipe Bending Machine</a></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"></div>
+                                <div class="product-txt"><a href="elbow-cold-forming-machine.html">Elbow Cold Forming Machine</a></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"></div>
+                                <div class="product-txt"><a href="elbow-double-beveling-machine.html">Elbow Double Beveling Machine</a></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"></div>
+                                <div class="product-txt"><a href="elbow-hot-forming-machine.html" class="pro-link">Elbow Hot Forming Machine</a></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"></div>
+                                <div class="product-txt"><a href="tee-cold-forming-machine.html">Tee Cold Forming Machine</a></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"></div>
+                                <div class="product-txt"></div>
+                 		</div>
+                        <div class="cont-wrap">
+                            	<div class="symbol"><img src="images/dott.png"/></div>
+                                <div class="cont-txt"><a href="material-of-construction.html"><strong>Materials Of Construction</strong></a></div>
+                    	</div>
+
+                        <div class="export">Our Main Market</div>
+                <select name="S_country2" class="country">
+<option value="">---------------------- We Export -------------------</option>
+<option>Afghanistan</option>
+<option>Albania</option>
+<option>Algeria</option>
+<option>American Samoa</option>
+<option>Andorra</option>
+<option>Angola</option>
+<option>Anguilla</option>
+<option>Antarctica</option>
+<option>Antigua And Barbuda</option>
+<option>Argentina</option>
+<option>Armenia</option>
+<option>Aruba</option>
+<option>Australia</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Bahamas, The</option>
+<option>Bahrain</option>
+<option>Bangladesh</option>
+<option>Barbados</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Belize</option>
+<option>Benin</option>
+<option>Bermuda</option>
+<option>Bhutan</option>
+<option>Bolivia</option>
+<option>Bosnia and Herzegovina</option>
+<option>Botswana</option>
+<option>Bouvet Island</option>
+<option>Brazil</option>
+<option>British Indian Ocean</option>
+<option>Brunei</option>
+<option>Bulgaria</option>
+<option>Burkina Faso</option>
+<option>Burundi</option>
+<option>Cambodia</option>
+<option>Cameroon</option>
+<option>Canada</option>
+<option>Cape Verde</option>
+<option>Cayman Islands</option>
+<option>Central African Republic</option>
+<option>Chad</option>
+<option>Chile</option>
+<option>China</option>
+<option>China (Hong Kong S.A.R.)</option>
+<option>China (Macau S.A.R.)</option>
+<option>Christmas Islands (CX)</option>
+<option>Cocos (Keeling) Islands</option>
+<option>Colombia</option>
+<option>Comoros</option>
+<option>Congo</option>
+<option>Congo Democractic Republic</option>
+<option>Cook Islands</option>
+<option>Costa Rica</option>
+<option>Cote D'Ivoire (Ivory Coast)</option>
+<option>Croatia (Hrvatska)</option>
+<option>Cuba</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Djibouti</option>
+<option>Dominica</option>
+<option>Dominican Republic</option>
+<option>East Timor</option>
+<option>Ecuador</option>
+<option>Egypt</option>
+<option>El Salvador</option>
+<option>Equatorial Guinea</option>
+<option>Eritrea</option>
+<option>Estonia</option>
+<option>Ethiopia</option>
+<option>Falkland Islands</option>
+<option>Faroe Islands</option>
+<option>Fiji Islands</option>
+<option>Finland</option>
+<option>France</option>
+<option>French Guiana</option>
+<option>French Polynesia</option>
+<option>French Southern Territories</option>
+<option>Gabon</option>
+<option>Gambia, The</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Ghana</option>
+<option>Gibraltar</option>
+<option>Greece</option>
+<option>Greenland</option>
+<option>Grenada</option>
+<option>Guadeloupe</option>
+<option>Guam</option>
+<option>Guatemala</option>
+<option>Guinea</option>
+<option>Guinea-Bissau</option>
+<option>Guyana</option>
+<option>Haiti</option>
+<option>Heard and McDonald Islands</option>
+<option>Honduras</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>India</option>
+<option>Indonesia</option>
+<option>Iran</option>
+<option>Iraq</option>
+<option>Ireland</option>
+<option>Israel</option>
+<option>Italy</option>
+<option>Jamaica</option>
+<option>Japan</option>
+<option>Jordan</option>
+<option>Kazakhstan</option>
+<option>Kenya</option>
+<option>Kiribati</option>
+<option>Korea</option>
+<option>Korea, North</option>
+<option>Kuwait</option>
+<option>Kyrgyzstan</option>
+<option>Laos</option>
+<option>Latvia</option>
+<option>Lebanon</option>
+<option>Lesotho</option>
+<option>Liberia</option>
+<option>Libya</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Macedonia</option>
+<option>Madagascar</option>
+<option>Malawi</option>
+<option>Malaysia</option>
+<option>Maldives</option>
+<option>Mali</option>
+<option>Malta</option>
+<option>Marshall Islands</option>
+<option>Martinique</option>
+<option>Mauritania</option>
+<option>Mauritius</option>
+<option>Mayotte</option>
+<option>Mexico</option>
+<option>Micronesia</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Mongolia</option>
+<option>Montserrat</option>
+<option>Morocco</option>
+<option>Mozambique</option>
+<option>Myanmar</option>
+<option>Namibia</option>
+<option>Nauru</option>
+<option>Nepal</option>
+<option>Netherlands Antilles</option>
+<option>Netherlands, The</option>
+<option>New Caledonia</option>
+<option>New Zealand</option>
+<option>Nicaragua</option>
+<option>Niger</option>
+<option>Nigeria</option>
+<option>Niue</option>
+<option>Norfolk Island</option>
+<option>Northern Mariana Islands</option>
+<option>Norway</option>
+<option>Oman</option>
+<option>Pakistan</option>
+<option>Palau</option>
+<option>Panama</option>
+<option>Papua new Guinea</option>
+<option>Paraguay</option>
+<option>Peru</option>
+<option>Philippines</option>
+<option>Pitcairn Island</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Puerto Rico</option>
+<option>Qatar</option>
+<option>Reunion</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>Rwanda</option>
+<option>Saint Helena</option>
+<option>Saint Kitts And Nevis</option>
+<option>Saint Lucia</option>
+<option>Saint Pierre and Miquelon</option>
+<option>Saint Vincent / Grenadin</option>
+<option>Samoa</option>
+<option>San Marino</option>
+<option>Sao Tome and Principe</option>
+<option>Saudi Arabia</option>
+<option>Senegal</option>
+<option>Seychelles</option>
+<option>Sierra Leone</option>
+<option>Singapore</option>
+<option>Slovakia</option>
+<option>Slovenia</option>
+<option>Solomon Islands</option>
+<option>Somalia</option>
+<option>South Africa</option>
+<option>South Georgia</option>
+<option>Spain</option>
+<option>Sri Lanka</option>
+<option>Sudan</option>
+<option>Suriname</option>
+<option>Svalbard / Jan Mayen Island</option>
+<option>Swaziland</option>
+<option>Sweden</option>
+<option>Switzerland</option>
+<option>Syria</option>
+<option>Taiwan</option>
+<option>Tajikistan</option>
+<option>Tanzania</option>
+<option>Thailand</option>
+<option>Togo</option>
+<option>Tokelau</option>
+<option>Tonga</option>
+<option>Trinidad And Tobago</option>
+<option>Tunisia</option>
+<option>Turkey</option>
+<option>Turkmenistan</option>
+<option>Turks And Caicos Islands</option>
+<option>Tuvalu</option>
+<option>Uganda</option>
+<option>Ukraine</option>
+<option>United Arab Emirates</option>
+<option>United Kingdom</option>
+<option>United States</option>
+<option>United States Minor Outlying</option>
+<option>Uruguay</option>
+<option>Uzbekistan</option>
+<option>Vanuatu</option>
+<option>Vatican City State (Holy See)</option>
+<option>Venezuela</option>
+<option>Vietnam</option>
+<option>Virgin Islands (British)</option>
+<option>Virgin Islands (US)</option>
+<option>Wallis And Futuna Islands</option>
+<option>Western Sahara</option>
+<option>Yemen</option>
+<option>Yugoslavia</option>
+<option>Zambia</option>
+<option>Zimbabwe</option>
+</select>
+                 </div>
+             </div>
+
+
+        </div>
+
+      <div class="clearfix"></div>
+      <div class="wrap">
+	 <div class="footer">
+        		<div class="copyright text-center">
+                <div class="col-md-6"><p><a href="index.html">Home</a> | <a href="about.html">About us</a> | <a href="products.html">Products</a> | <a href="clients.html">Clients</a> | <a href="enquiry.html">Enquiry Form</a> | <a href="contact.html">Contact us</a></p></div>
+                <div class="col-md-6"><p>© 2014 AMARDEEP STEEL. All Rights Reserved.</p></div>
+                </div>
+    </div>
+
+	 </div>
+</body>
+</html>
