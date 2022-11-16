@@ -10,7 +10,9 @@
   <meta property="fb:pages" content="117239318286667" />
   <meta name="msvalidate.01" content="DA3137C7C8353851694EAE0E17944029" />
   <meta name="yandex-verification" content="be82f3c5faf6d3bf" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -27,6 +29,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 
   <script type="application/ld+json">
@@ -262,12 +265,12 @@
       font-family: 'Trebuchet MS';
     }
 
-    .blogs-new-section {
+    /* .blogs-new-section {
       background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.91) 0%, rgba(255, 255, 255, 0.58) 54%), url('./bg-slider-03.jpg') !important;
       background-attachment: fixed;
       background-size: cover;
       background-repeat: no-repeat;
-    }
+    } */
 
     .blogs-grid-row-container {
       display: grid;
@@ -387,6 +390,127 @@
       background-size: cover;
       background-position: top;
     }
+
+    .navbar-nav>li>.dropdown-menu {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+      min-width: 250px;
+    }
+
+    .mega-dropdown {
+      position: static !important;
+    }
+
+    /* .navbar-brand {
+      border-right: 2px solid #eee;
+    } */
+
+    .mega-dropdown-menu>li>ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    .mega-dropdown-menu>li>ul>li {
+      list-style: none;
+    }
+
+    .mega-dropdown-menu>li>ul>li>a {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: 1.428571429;
+      color: #999;
+      white-space: normal;
+    }
+
+    .mega-dropdown-menu>li>ul>li>a:hover {
+      color: #e2e2e2;
+      text-decoration: none;
+    }
+
+    .dropdown-header {
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 500;
+      border-bottom: 1px solid #f1f1f1;
+      margin: 10px 0;
+      color: #000;
+    }
+
+    .menu-images {
+      padding: 5px 20px 5px 20px;
+    }
+
+    .dropdown.mega-dropdown:hover,
+    .dropdown.mega-dropdown:active,
+    .dropdown.mega-dropdown:focus {
+      background: #eee;
+    }
+
+    .single-item:hover,
+    .single-item:active,
+    .single-item:focus {
+      background: #eee;
+    }
+
+    span.glyphicon.glyphicon-chevron-down {
+      padding: 2px 10px;
+    }
+
+    .dropdown-menu {
+      background: #fff !important;
+    }
+
+    .fa-chevron-down {
+      font-size: 12px;
+    }
+
+    .navbar-nav>li {
+      font-family: Trebuchet MS;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+    }
+
+    .navbar {
+      margin-bottom: 0px;
+      transition: all 0.4s ease-in;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* @media screen and (max-width: 992px) {
+      .navbar-collapse{
+        max-height: 600px;
+        overflow-y: scroll;
+      }
+    } */
+
+    .navbar-brand>img {
+      width: 160px;
+    }
+
+    .navbar-brand {
+      height: auto !important;
+    }
+
+    .navbar-container-fluid {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+
+    @media screen and (max-width: 992px) {
+      .navbar {
+        display: initial;
+        justify-content: initial;
+        align-items: initial;
+      }
+    }
   </style>
 </head>
 
@@ -398,31 +522,33 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- header-section-starts -->
-  <div class="header">
-    <div class="wrap">
-      <div class="header-bottom">
-        <div class="logo">
-          <a href="#"><img src="images/logo.png" class="img-responsive" alt="Amardeep Steel Center"></a>
-        </div>
+  <!-- <div class="container">
+    <div class="header">
+      <div class="wrap">
+        <div class="header-bottom">
+          <div class="logo">
+            <a href="#"><img src="images/logo.png" class="img-responsive" alt="Amardeep Steel Center"></a>
+          </div>
 
-        <div class="social-media">
-          <p id="socialicons2"><a href="https://www.facebook.com/amardeep.steel.centre" target="_blank"><img
-                src="images/facebook.png" width="35" height="35" title="Go to facebook"></a>&nbsp;<a
-              href="https://twitter.com/Amardeep_SteelC" target="_blank"><img src="images/twitter.png" width="35"
-                height="35" title="Go to twitter"></a>&nbsp;<a
-              href="https://plus.google.com/b/111568767435483873901/111568767435483873901/posts" target="_blank"><img
-                src="images/g-plus.png" width="35" height="35" title="Go to google plus"></a>&nbsp;<a
-              href="https://www.linkedin.com/company/amardeep-steel-centre" target="_blank"><img
-                src="images/linkedin.png" width="35" height="35" title="Go to Linkedin"></a></p>
+          <div class="social-media">
+            <p id="socialicons2"><a href="https://www.facebook.com/amardeep.steel.centre" target="_blank"><img
+                  src="images/facebook.png" width="35" height="35" title="Go to facebook"></a>&nbsp;<a
+                href="https://twitter.com/Amardeep_SteelC" target="_blank"><img src="images/twitter.png" width="35"
+                  height="35" title="Go to twitter"></a>&nbsp;<a
+                href="https://plus.google.com/b/111568767435483873901/111568767435483873901/posts" target="_blank"><img
+                  src="images/g-plus.png" width="35" height="35" title="Go to google plus"></a>&nbsp;<a
+                href="https://www.linkedin.com/company/amardeep-steel-centre" target="_blank"><img
+                  src="images/linkedin.png" width="35" height="35" title="Go to Linkedin"></a></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="clearfix"></div>
 
 
   <!-- header-section-ends -->
-  <div class="wrap">
+  <!-- <div class="wrap">
     <div id="cssmenu">
       <ul>
         <li class="has-sub"><a href="index.html"><span>Home</span></a></li>
@@ -502,6 +628,140 @@
         </li>
       </ul>
     </div>
+  </div> -->
+
+  <div class="container-fluid navbar-container-fluid">
+    <nav class="navbar">
+      <div class="navbar-header">
+        <button class="navbar-toggle" onclick="clickevent()" type="button" data-toggle="collapse"
+          data-target="#main-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span style="color:black;">Menu</span>
+
+        </button>
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+      </div>
+
+
+      <div class="collapse navbar-collapse" style="display: none;" id="main-navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us
+              <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Introduction</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Vision</a></li>
+              <li><a href="#">Mission Statements</a></li>
+              <li><a href="#">Corporate Values</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Our Clients</a></li>
+              <li><a href="#">Certificates</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sourcing Abilities</a></li>
+              <li><a href="#">Technical Info</a></li>
+              <li><a href="#">Projects Undertaken</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products
+              <i class="fa-solid fa-chevron-down"></i></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Piping Solutions</a></li>
+              <li><a href="#">Process Equipments</a></li>
+              <li><a href="#">Special Products & services</a></li>
+              <li><a href="#">Machineries</a></li>
+            </ul>
+          </li>
+          <li class="dropdown mega-dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Material of
+              Construction
+              <i class="fa-solid fa-chevron-down"></i></a>
+
+            <ul class="dropdown-menu mega-dropdown-menu row">
+              <li class="col-sm-3">
+                <ul>
+                  <li class="dropdown-header">Dresses</li>
+                  <li><a href="#">Default Navbar</a></li>
+                  <li><a href="#">Lovely Fonts</a></li>
+                  <li><a href="#">Responsive Dropdown </a></li>
+                  <li><a href="#">Default Navbar</a></li>
+                  <li><a href="#">Lovely Fonts</a></li>
+                  <li><a href="#">Responsive Dropdown </a></li>
+
+                  <li class="dropdown-header">Tops</li>
+                  <li><a href="#">Good Typography</a></li>
+                </ul>
+              </li>
+              <li class="col-sm-3">
+                <ul>
+                  <li class="dropdown-header">Dresses</li>
+                  <li><a href="#">Default Navbar</a></li>
+                  <li><a href="#">Lovely Fonts</a></li>
+                  <li><a href="#">Responsive Dropdown </a></li>
+                  <li><a href="#">Default Navbar</a></li>
+                  <li><a href="#">Lovely Fonts</a></li>
+                  <li><a href="#">Responsive Dropdown </a></li>
+
+                  <li class="dropdown-header">Tops</li>
+                  <li><a href="#">Good Typography</a></li>
+                </ul>
+              </li>
+              <li class="col-sm-3">
+                <ul>
+                  <li class="dropdown-header">Jackets</li>
+                  <li><a href="#">Easy to customize</a></li>
+                  <li><a href="#">Glyphicons</a></li>
+                  <li><a href="#">Pull Right Elements</a></li>
+
+                  <li class="dropdown-header">Pants</li>
+                  <li><a href="#">Coloured Headers</a></li>
+                  <li><a href="#">Primary Buttons & Default</a></li>
+                  <li><a href="#">Calls to action</a></li>
+                </ul>
+              </li>
+              <li class="col-sm-3">
+                <ul>
+                  <li class="dropdown-header">Jackets</li>
+                  <li><a href="#">Easy to customize</a></li>
+                  <li><a href="#">Glyphicons</a></li>
+                  <li><a href="#">Pull Right Elements</a></li>
+
+                  <li class="dropdown-header">Pants</li>
+                  <li><a href="#">Coloured Headers</a></li>
+                  <li><a href="#">Primary Buttons & Default</a></li>
+                  <li><a href="#">Calls to action</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quality
+              <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Quality Solutions</a></li>
+              <li><a href="#">Testing</a></li>
+              <li><a href="#">Packing & Despatch</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Calculator
+              <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Steel Plate Weight Calculator</a></li>
+              <li><a href="#">Flange Weight Calculator</a></li>
+              <li><a href="#">Steel Weight Calculator</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+      <!-- /.nav-collapse -->
+    </nav>
   </div>
 
   <div class="clearfix"></div>
@@ -615,6 +875,11 @@
     </div>
 
     <style>
+      body,
+      html {
+        overflow-x: hidden;
+      }
+
       .form-container form {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -681,6 +946,8 @@
       .our-pro>h2>span {
         border-bottom: 2px solid #4e6ba5;
         padding-bottom: 3px;
+        font-family: Trebuchet MS;
+        font-weight: bold;
       }
 
       p.habibi {
@@ -766,6 +1033,91 @@
           padding: 40px 20px 40px 20px;
         }
       }
+
+      .wrap {
+        width: 100% !important;
+        margin: 0 auto;
+      }
+
+      @media screen and (min-width: 2560px) {
+        .wrap {
+          width: 40% !important;
+        }
+
+        .container-fluid {
+          width: 40% !important;
+        }
+      }
+
+      .clients-gallery {
+        width: fit-content !important;
+      }
+
+      @media screen and (max-width:992px) {
+        .form-container-section {
+          padding: 40px 0px 40px 0px;
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        .new-arrivals {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media screen and (max-width: 576px) {
+        .clients-gallery {
+          width: 100% !important;
+        }
+
+        .new-arrivals {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      .client-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+        padding: 0px 20px 0px 20px;
+        margin: auto;
+      }
+
+      .client-container>div {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+      }
+
+      .ariba-discovery {
+        width: 180px;
+        margin-top: 2rem;
+      }
+
+      @media screen and (max-width: 992px) {
+        .client-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        .client-container {
+          grid-template-columns: repeat(1, 1fr);
+          padding: 0px 20px;
+        }
+      }
+
+      @media screen and (max-width: 576px) {
+        .client-container>div {
+          width: 300px;
+        }
+      }
+
+      .client-container {
+        width: 90%;
+        margin: auto;
+      }
     </style>
     <div class="form-container">
       <form method="post" id="HomeEnquiry">
@@ -790,8 +1142,8 @@
 
   <div class="clearfix"></div>
 
-  <div class="wrap">
-    <div class="pro-container">
+  <div class="pro-container">
+    <div class="container">
       <div class="col-md-4">
         <div class="slide-top">
           <h1>About AMARDEEP STEEL CENTRE</h1>
@@ -831,12 +1183,14 @@
       </div>
       <div class="clearfix"></div>
     </div>
+  </div>
 
-    <div class="our-pro">
-      <h2 style="font-size: x-large;" align="center"><span>Our Products</span></h2>
-    </div>
+  <div class="our-pro">
+    <h2 style="font-size: x-large;" align="center"><span>Our Products</span></h2>
+  </div>
 
 
+  <div class="our-products-arrivals container">
 
     <div class="new-arrivals text-center">
       <div class="product-item">
@@ -845,13 +1199,13 @@
         <img src="images/corten steel pro.png" alt="Corten Steel Products" title="Corten Steel Products">
         <!--<div class="mask1">
 
-                        <h2>Corten Steel Products</h2>
+                      <h2>Corten Steel Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="corten-steel-products.html" class="info">Read More</a>
+                      <a href="corten-steel-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="corten-steel-products.html">
             <p class="habibi">Corten Steel Products</p>
           </a></div>
@@ -861,15 +1215,15 @@
 
 
       <div class="product-item">
-        <img src="images/cs.png" alt="Carbon Steel Products" title="Carbon Steel Products">
+        <img src="/cs.png" alt="Carbon Steel Products" title="Carbon Steel Products">
         <!--<div class="mask1">
-				<h2>Carbon Steel Products</h2>
+      <h2>Carbon Steel Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="process-equipment.html" class="info">Read More</a>
+                      <a href="process-equipment.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="carbon-steel-products.html">
             <p class="habibi">Carbon Steel Products</p>
           </a></div>
@@ -882,13 +1236,13 @@
           title="Super Duplex Steel Products">
         <!--<div class="mask1">
 
-                        <h2>Super Duplex Steel Products</h2>
+                      <h2>Super Duplex Steel Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="super-duplex-steel-products.html" class="info">Read More</a>
+                      <a href="super-duplex-steel-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="super-duplex-steel-products.html">
             <p class="habibi">Super Duplex Steel Products</p>
           </a></div>
@@ -900,13 +1254,13 @@
       <div class="product-item">
         <img src="images/hest.png" alt="Hastelloy Products" title="Hastelloy Products">
         <!--<div class="mask1">
-				<h2>Hastelloy Products</h2>
+      <h2>Hastelloy Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="hastelloy-products.html" class="info">Read More</a>
+                      <a href="hastelloy-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="hastelloy-products.html">
             <p class="habibi">Hastelloy Products</p>
           </a></div>
@@ -916,13 +1270,13 @@
       <div class="product-item">
         <img src="images/stainlesss pro.png" alt="Stainless Steel Products" title="Stainless Steel Products">
         <!--<div class="mask1">
-				<h2>Stainless Steel Products</h2>
+      <h2>Stainless Steel Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="stainless-steel-products.html" class="info">Read More</a>
+                      <a href="stainless-steel-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="stainless-steel-products.html">
             <p class="habibi">Stainless Steel Products</p>
           </a></div>
@@ -931,13 +1285,13 @@
       <div class="product-item">
         <img src="images/duplexx.png" alt="Duplex Steel Products" title="Duplex Steel Products">
         <!--<div class="mask1">
-				<h2>Duplex Steel Products</h2>
+      <h2>Duplex Steel Products</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="duplex-steel-products.html" class="info">Read More</a>
+                      <a href="duplex-steel-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="duplex-steel-products.html">
             <p class="habibi">Duplex Steel Products</p>
           </a></div>
@@ -950,13 +1304,13 @@
       <div class="product-item">
         <img src="images/spacial pro.png" alt="SPECIAL PRODUCTS" title="SPECIAL PRODUCTS">
         <!--<div class="mask1">
-				<h2>SPECIAL PRODUCTS</h2>
+      <h2>SPECIAL PRODUCTS</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="special-products.html" class="info">Read More</a>
+                      <a href="special-products.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="special-products.html">
             <p class="habibi">Special Products</p>
           </a></div>
@@ -965,13 +1319,13 @@
       <div class="product-item">
         <img src="images/material of cc.png" alt="MATERIAL OF CONSTRUCTION" title="MATERIAL OF CONSTRUCTION">
         <!--<div class="mask1">
-				<h2>MATERIAL OF CONSTRUCTION</h2>
+      <h2>MATERIAL OF CONSTRUCTION</h2>
 
-                        <p>&nbsp;</p>
+                      <p>&nbsp;</p>
 
-                        <a href="material-of-construction.html" class="info">Read More</a>
+                      <a href="material-of-construction.html" class="info">Read More</a>
 
-                    </div>-->
+                  </div>-->
         <div class="pro-top1 zzz"><a href="material-of-construction.html">
             <p class="habibi">Material Of Construction</p>
           </a></div>
@@ -984,10 +1338,12 @@
 
 
     </div>
+  </div>
 
-    <div class="clearfix"></div>
+  <div class="clearfix"></div>
 
-    <section class="blogs-new-section">
+  <section class="blogs-new-section">
+    <div class="container">
       <div class="blogs-container-content">
         <div>
           <p><span>OUR BLOGS</span></p>
@@ -1034,9 +1390,11 @@
           </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="form-container-section">
+  <section class="form-container-section">
+    <div class="container">
       <div class="form-grid-content-container">
         <div>
           <h5>Before You Go…</h5>
@@ -1069,7 +1427,8 @@
             <div class="calling-at">
               <p>Call Us At</p>
               <p>Feel free to call on</p>
-              <p><a href="tel:+91-22-23890767">+91-22-23890767</a> / <a href="tel:+91-22-23890768">+91-22-23890768</a></p>
+              <p><a href="tel:+91-22-23890767">+91-22-23890767</a> / <a href="tel:+91-22-23890768">+91-22-23890768</a>
+              </p>
               <p><a href="tel:022-67439130">022-67439130</a> / <a href="tel:022-67439165">022-67439165</a></p>
             </div>
           </div>
@@ -1089,102 +1448,101 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
 
 
-    <div class="pro-container">
-      <div class="col-md-4">
-        <h2><strong>OUR CLIENTS</strong></h2>
-        <div class="clients-gallery">
-          <div style="overflow: hidden;">
-            <div style="visibility: visible; width: 415px; height: 90px; position: relative; overflow: hidden;">
-              <ul class="bxslider">
-                <li><img src="images/ioil.png"></li>
-                <li><img src="images/asdf.png"></li>
-                <li><img src="images/sail.png"></li>
-                <li><img src="images/barc.png"></li>
-                <li><img src="images/bhushan.png"></li>
-                <li><img src="images/hpetrol.png"></li>
-                <li><img src="images/ntpcclient.png"></li>
-                <li><img src="images/asdfgh.png"></li>
-                <li><img src="images/rel.png"></li>
-                <li><img src="images/knpcclient.png"></li>
-                <li><img src="images/kuwait.png"></li>
-                <li><img src="images/qatar.png"></li>
-              </ul>
-            </div>
+  <div class="pro-container client-container">
+    <div>
+      <h2><strong>OUR CLIENTS</strong></h2>
+      <div class="clients-gallery">
+        <div style="overflow: hidden;">
+          <div style="visibility: visible; width: 415px; height: 90px; position: relative; overflow: hidden;">
+            <ul class="bxslider">
+              <li><img src="images/ioil.png"></li>
+              <li><img src="images/asdf.png"></li>
+              <li><img src="images/sail.png"></li>
+              <li><img src="images/barc.png"></li>
+              <li><img src="images/bhushan.png"></li>
+              <li><img src="images/hpetrol.png"></li>
+              <li><img src="images/ntpcclient.png"></li>
+              <li><img src="images/asdfgh.png"></li>
+              <li><img src="images/rel.png"></li>
+              <li><img src="images/knpcclient.png"></li>
+              <li><img src="images/kuwait.png"></li>
+              <li><img src="images/qatar.png"></li>
+            </ul>
           </div>
         </div>
-        <script type="text/javascript" src="js/slider/jquery.bxslider.min.js"></script>
-        <script type="text/javascript" src="js/slider/vendor/jquery.easing.1.3.js"></script>
-        <script type="text/javascript">
-          $(document).ready(function () {
-            $('.bxslider').bxSlider({
-              minSlides: 0,
-              maxSlides: 4,
-              slideWidth: 100,
-              slideMargin: 10,
-              ticker: true,
-              speed: 20000
-            });
+      </div>
+      <script type="text/javascript" src="js/slider/jquery.bxslider.min.js"></script>
+      <script type="text/javascript" src="js/slider/vendor/jquery.easing.1.3.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $('.bxslider').bxSlider({
+            minSlides: 0,
+            maxSlides: 4,
+            slideWidth: 100,
+            slideMargin: 10,
+            ticker: true,
+            speed: 20000
           });
-        </script>
-      </div>
-      <div class="col-md-4">
-        <h2><strong>APPLICATION INDUSTRY</strong></h2>
-        <div class="clients-gallery"><img src="images/application.jpg" class="img-responsive" alt="Application Industry"
-            title="Application Industry"></div>
-      </div>
-      <div class="col-md-3 different-products">
-        <h2><strong>USEFUL LINKS</strong></h2>
-        <ul>
-          <li><img src="images/pdf.png"></li>
-          <li><a href="catalog-amardeep.pdf" target="_blank">Download Catalogue</a></li>
-        </ul>
-        <div class="clearfix"></div>
-        <ul>
-          <li><img src="images/certificate.png"></li>
-          <li><a href="certificate.html">Certificates</a></li>
-
-        </ul>
-
-
-
-        <div class="clearfix"></div>
-        <ul>
-          <li><img src="images/service.png"></li>
-          <li><a href="#">Our Services</a></li>
-        </ul>
-
-
-
-        <img alt="View Amardeep steel Centre profile on Ariba Discovery" border=0
-          src="https://service.ariba.com/an/p/Ariba/badge_180x55.jpg">
-        </a>
-      </div>
+        });
+      </script>
     </div>
-
-    <div class="clearfix"></div>
-
-    <div class="footer">
-      <div class="copyright text-center">
-        <div class="col-md-6">
-          <p><a href="index.html">Home</a> | <a href="about.html">About us</a> | <a href="products.html">Products</a>
-            |
-            <a href="clients.html">Clients</a> | <a href="enquiry.html">Enquiry Form</a> | <a
-              href="contact.html">Contact us</a> | <a href="projects-undertaken.html">Projects Undertaken</a>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <p>� 2014 AMARDEEP STEEL. All Rights Reserved.</p>
-        </div>
-      </div>
+    <div>
+      <h2><strong>APPLICATION INDUSTRY</strong></h2>
+      <div class="clients-gallery"><img src="images/application.jpg" class="img-responsive" alt="Application Industry"
+          title="Application Industry"></div>
     </div>
+    <div class="different-products">
+      <h2><strong>USEFUL LINKS</strong></h2>
+      <ul>
+        <li><img src="images/pdf.png"></li>
+        <li><a href="catalog-amardeep.pdf" target="_blank">Download Catalogue</a></li>
+      </ul>
+      <div class="clearfix"></div>
+      <ul>
+        <li><img src="images/certificate.png"></li>
+        <li><a href="certificate.html">Certificates</a></li>
+
+      </ul>
 
 
+
+      <div class="clearfix"></div>
+      <ul>
+        <li><img src="images/service.png"></li>
+        <li><a href="#">Our Services</a></li>
+      </ul>
+
+
+
+      <img class="ariba-discovery" alt="View Amardeep steel Centre profile on Ariba Discovery" border=0
+        src="https://service.ariba.com/an/p/Ariba/badge_180x55.jpg">
+      </a>
+    </div>
   </div>
+
+  <div class="clearfix"></div>
+
+  <div class="footer">
+    <div class="copyright text-center">
+      <div class="col-md-6">
+        <p><a href="index.html">Home</a> | <a href="about.html">About us</a> | <a href="products.html">Products</a>
+          |
+          <a href="clients.html">Clients</a> | <a href="enquiry.html">Enquiry Form</a> | <a href="contact.html">Contact
+            us</a> | <a href="projects-undertaken.html">Projects Undertaken</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p>� 2014 AMARDEEP STEEL. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+
 
 
   <div id="topcontrol" title="Scroll Back to Top"
@@ -1230,6 +1588,53 @@
         }
       });
     });
+  </script>
+
+  <script>
+    jQuery(document).ready(function () {
+
+
+      $(".dropdown").hover(
+        function () {
+          $('.dropdown-menu', this).fadeIn(300);
+        },
+        function () {
+          $('.dropdown-menu', this).fadeOut(300);
+        });
+    });
+
+
+
+    function clickevent() {
+      var button = document.getElementById('main-navbar')
+      if (button.style.display === 'none') {
+        button.style.display = 'block'
+      } else {
+        button.style.display = 'none'
+      }
+    }
+
+
+    if (screen.width >= 640) {
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 100) {
+          $(".navbar").css({
+            'position': 'fixed',
+            'top': '0px',
+            'width': '100%',
+            'background': '#FFFFFF',
+            'z-index': '99',
+            'box-shadow': 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
+          });
+        } else {
+          $(".navbar").css({
+            'position': 'relative',
+            'background': '#FFFFFF',
+            'width': '100%'
+          })
+        }
+      });
+    }
   </script>
 </body>
 
